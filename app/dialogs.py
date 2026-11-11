@@ -55,6 +55,8 @@ class ConfirmRenameDialog(QtWidgets.QDialog):
         table.setRowCount(len(self.rename_pairs))
         table.setSelectionBehavior(QtWidgets.QAbstractItemView.SelectionBehavior.SelectRows)
         table.setAlternatingRowColors(True)
+        # Filas altas para que los nombres se lean bien y no queden apretados.
+        table.verticalHeader().setDefaultSectionSize(48)
 
         dark_text_brush = QtGui.QBrush(QtGui.QColor("#0f172a"))
         arrow_brush = QtGui.QBrush(QtGui.QColor("#64748b"))

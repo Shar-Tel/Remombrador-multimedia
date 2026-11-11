@@ -228,8 +228,9 @@ class MainWindow(QtWidgets.QMainWindow):
         ) + 44
         self.table.setColumnWidth(5, action_width)
 
-        # Filas un poco más altas para que el botón y el texto respiren.
-        self.table.verticalHeader().setDefaultSectionSize(38)
+        # Filas altas para que el texto respire y el editor de celda (doble clic
+        # para renombrar manualmente) muestre el texto completo sin recortes.
+        self.table.verticalHeader().setDefaultSectionSize(48)
 
         self.table.setSelectionBehavior(QtWidgets.QAbstractItemView.SelectionBehavior.SelectRows)
         self.table.setAlternatingRowColors(True)
