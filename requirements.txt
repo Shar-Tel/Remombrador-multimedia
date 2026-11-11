@@ -1,0 +1,4 @@
+# Requisitos para el Renombrador Multimedia
+# Compatible con PySide6 (oficial Qt) o PyQt6
+PySide6>=6.0.0
+
