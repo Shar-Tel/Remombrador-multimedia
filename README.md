@@ -1,6 +1,6 @@
 # 🎬 Renombrador Multimedia (Series y Películas con TVmaze API)
 
-Una aplicación de escritorio en **Python** con interfaz gráfica **Qt (PySide6 / PyQt6)** diseñada para analizar y renombrar archivos multimedia de series y películas de forma limpia, organizada y **100% segura**.
+Una aplicación de escritorio en **Python** con interfaz gráfica **Qt (PySide6 / PyQt6)** diseñada para analizar y renombrar archivos multimedia de series y películas de forma limpia, organizada.
 
 ---
 
@@ -14,7 +14,6 @@ Una aplicación de escritorio en **Python** con interfaz gráfica **Qt (PySide6 
 2. **Integración con la API de TVmaze**:
    - Conexión a la API pública y gratuita de [TVmaze](https://www.tvmaze.com/api) (sin necesidad de API keys).
    - Identificación del nombre canónico de la serie y el título exacto del capítulo para la temporada y episodio detectados.
-   - Soporte para series internacionales y en español (ej. *La Casa de Papel*, *Breaking Bad*, *Stranger Things*).
    - Para películas, limpia etiquetas de escena (`1080p`, `BluRay`, `x264`, `HDR`, etc.) y genera un nombre limpio con el año y el idioma detectado: `Título (Año).ext` o `Título (Año) [Latino].ext`.
 
 3. **Caché en memoria de alto rendimiento**:
